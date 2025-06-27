@@ -1,0 +1,75 @@
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+}
+
+.header__left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.header__logo img {
+  display: block;
+  width: 88px;
+  height: 32px;
+}
+
+.nav__menu {
+  display: flex;
+}
+.nav__menu a {
+  font-size: 17px;
+  color: #000;
+}
+
+.nav__menu li:nth-child(1) a {
+  padding-left: 16px;
+}
+
+.nav__menu li:nth-child(2) a {
+  padding: 0 16px;
+}
+
+.nav__menu li:nth-child(3) a {
+  padding-right: 16px;
+}
+
+.header__action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.btn-post,
+.btn-ghost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px 12px;
+  font-size: 15px;
+}
+
+.btn-primary {
+  font-size: 14px;
+  background-color: rgb(131, 127, 255);
+  color: #fff;
+  padding: 0 20px;
+  height: 38px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
