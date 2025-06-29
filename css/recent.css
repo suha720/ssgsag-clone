@@ -1,0 +1,19 @@
+.recent_items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 351px;
+  gap: 8px;
+}
+
+.recent_covr {
+  width: 242px;
+  height: 242px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.recent_covr img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

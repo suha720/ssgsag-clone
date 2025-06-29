@@ -1,0 +1,63 @@
+.section-app {
+  background-color: rgb(240, 241, 246);
+}
+
+.app-container {
+  padding: 56px 18px;
+}
+
+.app-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.app-cover {
+  width: 360px;
+  height: 240px;
+}
+
+.app-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-banner_info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.takeDown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.doDance {
+  display: flex;
+  gap: 7px;
+}
+
+.btn-store {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+.store-cover {
+  width: 24px;
+  height: 24px;
+}
+
+.store-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
