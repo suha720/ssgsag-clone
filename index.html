@@ -4,8 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>슥삭 클론</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/popup.css" />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/banner.css" />
+    <script src="js/banner.js"></script>
+
+    <link rel="stylesheet" href="css/highlight.css" />
   </head>
   <body>
     <header class="site-header">
@@ -25,20 +40,149 @@
         <div class="header__action">
           <ul class="header__tools">
             <li>
-              <a class="btn btn-post">
+              <a class="btn-post">
                 <img src="assets/ic_upload.svg" alt="" />
                 공고등록
               </a>
             </li>
             <li>
-              <a class="btn btn-ghost">
+              <a class="btn-ghost">
                 <img src="assets/ic_advertise.svg" alt="" />광고등록
               </a>
             </li>
           </ul>
-          <a class="btn btn-primary">로그인</a>
+          <a class="btn-primary">로그인</a>
         </div>
       </div>
     </header>
+
+    <main class="site-main">
+      <!-- Swiper 배너 -->
+      <div class="main-banner">
+        <div class="swiper sw_banner">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#" class="slide_item"
+                ><img src="assets/banner.png" alt="banner"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="slide_item"
+                ><img src="assets/banner.png" alt="banner"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="slide_item"
+                ><img src="assets/banner.png" alt="banner"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#" class="slide_item"
+                ><img src="assets/banner.png" alt="banner"
+              /></a>
+            </div>
+          </div>
+          <div class="banner_slide_prev btn"><button>왼쪽</button></div>
+          <div class="banner_slide_next btn"><button>오른쪽</button></div>
+          <div class="banner_slide_pg"></div>
+        </div>
+      </div>
+
+      <!-- 카테고리 아이콘 -->
+      <div class="main-categories container">
+        <ul class="category__list">
+          <li class="category_item">
+            <a href="#"
+              ><img src="assets/ic_activity.png" alt="" />
+              <p>대외활동</p></a
+            >
+          </li>
+          <li class="category_item">
+            <a href="#"
+              ><img src="assets/ic_contest.png" alt="" />
+              <p>공모전</p></a
+            >
+          </li>
+          <li class="category_item">
+            <a href="#"
+              ><img src="assets/ic_internship.png" alt="" />
+              <p>인턴십</p></a
+            >
+          </li>
+          <li class="category_item">
+            <a href="#"
+              ><img src="assets/ic_education.png" alt="" />
+              <p>교육/강연</p></a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- 공고 섹션: 추천 -->
+      <div class="section-highlight">
+        <div class="section_container container">
+          <h2 class="section_title">슥삭이 콕 집은 공고</h2>
+          <!-- 카드 반복 -->
+          <ul class="highlight_cards">
+            <li>
+              <a class="card card-vertical">
+                <div class="high_img_box">
+                  <img src="assets/highlight.png" alt="..." class="card_img" />
+                </div>
+                <div class="card_info">
+                  <span class="card_badge">대외활동</span>
+                  <h3 class="card_title">
+                    [SK그룹] SK Careers Editor 22기 모집(~25.07.06)
+                  </h3>
+                  <p class="card_dday">D-8</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="card card-vertical">
+                <div class="high_img_box">
+                  <img src="assets/highlight.png" alt="..." class="card_img" />
+                </div>
+                <div class="card_info">
+                  <span class="card_badge">대외활동</span>
+                  <h3 class="card_title">
+                    [SK그룹] SK Careers Editor 22기 모집(~25.07.06)
+                  </h3>
+                  <p class="card_dday">D-8</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="card card-vertical">
+                <div class="high_img_box">
+                  <img src="assets/highlight.png" alt="..." class="card_img" />
+                </div>
+                <div class="card_info">
+                  <span class="card_badge">대외활동</span>
+                  <h3 class="card_title">
+                    [SK그룹] SK Careers Editor 22기 모집(~25.07.06)
+                  </h3>
+                  <p class="card_dday">D-8</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="card card-vertical">
+                <div class="high_img_box">
+                  <img src="assets/highlight.png" alt="..." class="card_img" />
+                </div>
+                <div class="card_info">
+                  <span class="card_badge">대외활동</span>
+                  <h3 class="card_title">
+                    [SK그룹] SK Careers Editor 22기 모집(~25.07.06)
+                  </h3>
+                  <p class="card_dday">D-8</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
