@@ -1,0 +1,37 @@
+.trend_items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 120px;
+  gap: 8px 16px;
+}
+
+.trend_item {
+  /* width: 100%; */
+  display: flex;
+  gap: 12px;
+}
+
+.trend_item a {
+  /* width: 100%; */
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.trand_covr {
+  width: 102px;
+  height: 102px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.trand_covr img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trend_info {
+  display: flex;
+  flex-direction: column;
+}
